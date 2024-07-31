@@ -1,0 +1,54 @@
+.about-hero-section {
+  background: url('../about-image.webp') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 50px;
+  height: 250px;
+  font-size: large;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+}
+
+.about-details-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.about-card {
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.about-card img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.about-card h3 {
+  color: #4CAF50;
+  margin-top: 15px;
+}
+
+.about-card p {
+  color: #333;
+}
+
+.about-card:hover {
+  transform: scale(1.05);
+}
+
+.about-hero-section:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: x-large;
+}

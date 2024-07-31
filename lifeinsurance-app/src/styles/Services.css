@@ -1,0 +1,86 @@
+.services-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .termlife-section
+  {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+  }
+
+  .universallife-section
+  {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+  }
+  .variablelife-section
+  {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+  }
+  .wholelife-section
+  {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 175px;
+    margin-right: 175px;
+  }
+  
+  .services-section h2 {
+    color: #4CAF50;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #4CAF50;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    height: 75px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .card:hover {
+    background-color: white;
+  }
+  

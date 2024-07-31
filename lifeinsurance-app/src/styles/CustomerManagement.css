@@ -1,0 +1,100 @@
+.customer-management-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+}
+
+.customer-management-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.customer-management {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.customer-management input[type="text"] {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #dfe6e9;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.customer-management button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.customer-management button:hover {
+  background-color: #2980b9;
+}
+
+.search-sort {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.search-sort input[type="text"] {
+  flex-grow: 1;
+}
+
+.customer-management ul {
+  list-style: none;
+  padding: 0;
+}
+
+.customer-management li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ecf0f1;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.customer-management li:hover {
+  background-color: #dfe6e9;
+}
+
+.customer-management li input[type="text"] {
+  padding: 5px;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.customer-management li button {
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.customer-management li button:nth-child(1) {
+  background-color: #27ae60;
+}
+
+.customer-management li button:nth-child(1):hover {
+  background-color: #229954;
+}
+
+.customer-management li button:nth-child(2) {
+  background-color: #e74c3c;
+}
+
+.customer-management li button:nth-child(2):hover {
+  background-color: #c0392b;
+}

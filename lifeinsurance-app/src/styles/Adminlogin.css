@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.admin-auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0fc425, #d6e6f2);
+  font-family: 'Roboto', sans-serif;
+}
+
+.admin-auth-box {
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.admin-logo img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.admin-input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.admin-input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.admin-input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.admin-input-group input:focus {
+  border-color: #6200ea;
+}
+
+.admin-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #6200ea;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-btn:hover {
+  background: #5e00e1;
+}
+
+.admin-switch-link {
+  margin-top: 15px;
+}
+
+.admin-switch-link a {
+  color: #6200ea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.admin-switch-link a:hover {
+  text-decoration: underline;
+}
+
+.admin-error {
+  color: red;
+  font-size: 12px;
+}
